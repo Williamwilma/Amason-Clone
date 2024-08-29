@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "wilma": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
   },
   "keywords": [],
   "author": "",
