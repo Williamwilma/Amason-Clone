@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/output.css" />
+
+    <!-- Bootsrap Icons Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header    -->
+    <header
+      class="flex justify-between items-center gap-4 bg-black text-white px-5 py-3"
+    >
+      <!-- logo -->
+      <div class="md:w-[12rem] w-[3rem] h-12 bg-red-300 overflow-hidden">
+        <img src="/src/Images/logo.jpg" alt="logo" class="w-full h-full" />
+      </div>
+
+      <!-- location  -->
+      <div class="text-sm md:static hidden">
+        <span class="font-bold">Deliver to</span> Rwanda
+      </div>
+
+      <!-- search input -->
+      <div class="w-[80%] h-10 rounded-md overflow-hidden bg-blue-300 flex">
+        <div class="h-full w-10 bg-slate-400 flex justify-center items-center">
+          <i class="bi bi-arrow-down-short text-3xl cursor-pointer"></i>
+        </div>
+        <input
+          type="text"
+          class="h-full bg-white flex-1 px-2 text-black outline-none"
+          placeholder="Search"
+        />
+        <div class="h-full w-10 bg-orange-400 flex justify-center items-center">
+          <i class="bi bi-search text-2xl cursor-pointer"></i>
+        </div>
+      </div>
+
+      <!-- language and account  -->
+      <div class="md:flex hidden items-center gap-4">
+        <p class="text-sm">Eng</p>
+        <p class="text-[0.7rem]">
+          Hello, Sign in
+          <span class="font-bold"> Account & Lists</span>
+        </p>
+      </div>
+
+      <!-- cart  -->
+      <div class="md:flex hidden items-center gap-8">
+        <p class="text-[0.8rem] font-bold">Return &Orders</p>
+        <p class="flex text-xl items-center cursor-pointer">
+          <i class="bi bi-cart-plus"></i><span class="text-sm">cart</span>
+        </p>
+      </div>
+    </header>
+
+    <!-- header end here  -->
+
+    <!--//? ------------------------------------------------------------------------------------------------------------------------- -->
+
+    <nav
+      class="flex items-center gap-10 px-6 bg-[#050527] text-white py-3 justify-between"
+    >
+      <!-- menu list  -->
+      <div class="flex items-center gap-1">
+        <span><i class="bi bi-list text-2xl"></i></span>
+        <span>All</span>
+      </div>
+
+      <!-- Nav Links or List -->
+      <div class="flex-1 md:flex hidden gap-5">
+        <a href="https://www.amazon.com/medical-care">Medical Care</a>
+        <a href="https://www.amazon.com/best-sellers">Best Sellers</a>
+        <a href="https://www.amazon.com/amazon-basics">Amazon Basics</a>
+        <a href="https://www.amazon.com/prime">Prime</a>
+        <a href="https://www.amazon.com/new-releases">New Releases</a>
+        <a href="https://www.amazon.com/todays-deals">Today's Deals</a>
+        <a href="https://www.amazon.com/music">Music</a>
+        <a href="https://www.amazon.com/books">Books</a>
+        <a href="https://www.amazon.com/pharmacy">Pharmacy</a>
+        <a href="https://www.amazon.com/gift-cards">Gift Cards</a>
+        <a href="https://www.amazon.com/smart-home">Smart Home</a>
+      </div>
+
+      <!-- shop button  -->
+      <div class="">
+        <button
+          class="bg-orange-400 py-2 px-4 rounded-lg cursor-pointer hover:opacity-80"
+        >
+          Shop the Labor Day Sale
+        </button>
+      </div>
+    </nav>
+    <!-- navigation links end here  -->
+
+    <!--//? ------------------------------------------------------------------------------------------------------------------------- -->
+
+    <main>
+      <!--//todo ------------------------------------------- Hero Section Starts Here------------------------------------------------- -->
+      <section class="h-[70dvh] w-full bg-red-300" id="hero"></section>
+      <!--//todo ------------------------------------------- Hero Section Ends Here------------------------------------------------- -->
+
+      <!--//? ------------------------------------------------------------------------------------------------------------------------- -->
+
+      <!--//todo ------------------------------------------- Products List Section starts Here------------------------------------------------- -->
+      <section
+        class="h-fit w-full bg-gradient-to-t from-slate-400 to-transparent grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 md:px-12 px-3 py-14 -mt-40"
+      >
+        <!--//? product card One  -->
+        <div class="w-full h-fit px-3 py-4 bg-white">
+          <h1 class="text-xl font-bold pb-3">Game Accessories</h1>
+
+          <!--//? Product sub cards here -->
+          <div class="w-full h-fit grid grid-cols-2 gap-4">
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/game1.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/game4.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/game3.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/game5.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <a href="#" class="inline-block pt-3 text-blue-500">See more</a>
+        </div>
+
+        <!--//? product card Two  -->
+        <div class="w-full h-fit px-3 py-4 bg-white">
+          <h1 class="text-xl font-bold pb-3">Refresh your space</h1>
+          <!--//? Product sub cards here -->
+          <div class="w-full h-fit grid grid-cols-2 gap-4">
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/room1.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/room2.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/room3.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/room4.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <a href="#" class="inline-block pt-3 text-blue-500">See more</a>
+        </div>
+
+        <!--//? product card Three  -->
+        <div class="w-full h-fit px-3 py-4 bg-white">
+          <h1 class="text-xl font-bold pb-3">Shop deal in fashion</h1>
+          <!--//? Product sub cards here -->
+          <div class="w-full h-fit grid grid-cols-2 gap-4">
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/fashion1.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/fashion2.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/fashion3.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/fasion4.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <a href="#" class="inline-block pt-3 text-blue-500">See more</a>
+        </div>
+
+        <!--//? product card Four  -->
+        <div class="w-full h-fit px-3 py-4 bg-white">
+          <h1 class="text-xl font-bold pb-3">New Home arrival under $70</h1>
+          <!--//? Product sub cards here -->
+          <div class="w-full h-[47dvh]">
+            <div class="w-full h-full bg-slate-400">
+              <img
+                src="/src/Images/home1.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <a href="#" class="inline-block pt-3 text-blue-500">See more</a>
+        </div>
+
+        <!--//? product card Five  -->
+        <div class="w-full h-fit px-3 py-4 bg-white">
+          <h1 class="text-xl font-bold pb-3">Deals in PC</h1>
+          <!--//? Product sub cards here -->
+          <div class="w-full h-fit grid grid-cols-2 gap-4">
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img src="/src/Images/pc1.jpg" alt="game" class="w-full h-full" />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img src="/src/Images/pc2.jpg" alt="game" class="w-full h-full" />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img src="/src/Images/pc3.jpg" alt="game" class="w-full h-full" />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img src="/src/Images/pc4.jpg" alt="game" class="w-full h-full" />
+            </div>
+          </div>
+          <a href="#" class="inline-block pt-3 text-blue-500">See more</a>
+        </div>
+
+        <!--//? product card Six  -->
+        <div class="w-full h-fit px-3 py-4 bg-white">
+          <h1 class="text-xl font-bold pb-3">Toys under $30</h1>
+          <!--//? Product sub cards here -->
+          <div class="w-full h-fit grid grid-cols-2 gap-4">
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/toy1.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/toy2.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/toy3.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-full h-[10rem] bg-slate-400 overflow-hidden">
+              <img
+                src="/src/Images/toy4.jpg"
+                alt="game"
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <a href="#" class="inline-block pt-3 text-blue-500">See more</a>
+        </div>
+
+        <!--//? product card Seven  -->
+        <div class="w-full h-fit px-3 py-4 bg-white">
+          <h1 class="text-xl font-bold pb-3">fashion trends you like</h1>
+          <!--//? Product sub cards here -->
+          <div class="w-full h-fit grid grid-cols-2 gap-4">
+            <div class="w-full h-[10rem] bg-slate-400"></div>
+            <div class="w-full h-[10rem] bg-slate-400"></div>
+            <div class="w-full h-[10rem] bg-slate-400"></div>
+            <div class="w-full h-[10rem] bg-slate-400"></div>
+          </div>
+          <a href="#" class="inline-block pt-3 text-blue-500">See more</a>
+        </div>
+
+        <!--//? product card Eight  -->
+        <div class="w-full h-fit px-3 py-4 bg-white">
+          <h1 class="text-xl font-bold pb-3">Hope school supplies</h1>
+          <!--//? Product sub cards here -->
+          <div class="w-full h-[47dvh]">
+            <div class="w-full h-full bg-slate-400"></div>
+          </div>
+          <a href="#" class="inline-block pt-3 text-blue-500">See more</a>
+        </div>
+        <!--//? product cards ends  -->
+      </section>
+      <!--//todo ------------------------------------------- Products List Section Ends Here------------------------------------------------- -->
+
+      <!--//? ------------------------------------------------------------------------------------------------------------------------- -->
+
+      <!--//todo ------------------------------------------- Best Selling Products List Section starts Here------------------------------------------------- -->
+      <section class="bg-slate-100 w-full md:px-10 px-3 h-fit py-16">
+        <h1 class="text-3xl font-bold pb-6">Best Selling Products</h1>
+        <div class="overflow-x-auto">
+          <div class="flex space-x-8 pb-6">
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img
+                src="/src/Images/fashion1.jpg"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/game5.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/toy2.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/home1.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/room2.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/pc3.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img
+                src="/src/Images/fashion3.jpg"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/game2.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/pc2.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/toy4.jpg" alt="" class="w-full h-full" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--//todo ------------------------------------------- Best Selling Products List Section Ends Here------------------------------------------------- -->
+
+      <!--//? ------------------------------------------------------------------------------------------------------------------------- -->
+
+      <!--//todo ------------------------------------------- Best Selling Toys and PC List Section Starts Here------------------------------------------------- -->
+      <section class="bg-slate-100 w-full md:px-10 px-3 h-fit py-16">
+        <h1 class="text-3xl font-bold pb-6">Best Selling Toys and PC</h1>
+        <div class="overflow-x-auto">
+          <div class="flex space-x-8 pb-6">
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/toy2.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/pc1.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/toy2.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/pc2.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/toy3.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/pc3.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/toy4.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/pc4.jpg" alt="" class="w-full h-full" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--//todo ------------------------------------------- Best Selling Toys and PC List Section Ends Here------------------------------------------------- -->
+
+      <!--//? ------------------------------------------------------------------------------------------------------------------------- -->
+
+      <!--//todo ------------------------------------------- Best Selling Most Wished for in Movies and TV Section Starts Here------------------------------------------------- -->
+      <section class="bg-slate-100 w-full md:px-10 px-3 h-fit py-16 mb-6">
+        <h1 class="text-3xl font-bold pb-6">
+          Most Wished for in Movies and TV
+        </h1>
+        <div class="overflow-x-auto">
+          <div class="flex space-x-8 pb-6">
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/movie1.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/movie2.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/movie3.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/movie4.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/movies.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/movie5.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/movie6.jpg" alt="" class="w-full h-full" />
+            </div>
+            <div class="flex-shrink-0 w-72 h-96 bg-blue-500 overflow-hidden">
+              <img src="/src/Images/movie7.jpg" alt="" class="w-full h-full" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--//todo ------------------------------------------- Best Selling Most Wished for in Movies and TV Section ends Here------------------------------------------------- -->
+
+      <!--//? ------------------------------------------------------------------------------------------------------------------------- -->
+    </main>
+  </body>
+</html>
